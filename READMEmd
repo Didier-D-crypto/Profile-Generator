@@ -1,0 +1,40 @@
+GIVEN the developer has a GitHub profile:
+
+WHEN prompted for the developer's GitHub username and favorite color
+
+THEN a PDF profile is generated
+
+-------------------------------------------------------------------
+Functional, deployed application.
+
+
+ -check- GitHub repository with a unique name and a README describing project.
+      image has context. 
+
+ The application generates a PDF resume from the user provided GitHub profile.
+    
+
+The generated resume includes a bio image from the user's GitHub profile.
+
+
+The generated resume includes the user's location and a link to their GitHub profile.
+
+
+The generated resume includes the number of: public repositories, followers, GitHub stars and following count.
+
+
+The background color of the generated PDF matches the color that the user provides.
+
+//
+1-Making the PDF Resume (populated: public repositories, profile image)
+generate itself from the user provided Github profile. 
+- public repositories, following and following count
+ How? 
+
+
+ 
+2-Using basic authentication to access the Github API. 
+-Need two-factor authentification or personal access token
+
+
+3-//
